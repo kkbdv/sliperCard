@@ -1,0 +1,22 @@
+.container{
+  position: relative;
+  background-color: black;
+  overflow-y: hidden;
+  
+}
+.card_style{
+  height:800rpx;
+  position:absolute;
+  border-radius:15rpx;
+  
+}
+.color_id0{
+  background-color: #87CEFA
+}
+.color_id1{
+  background-color: #FFB6C1
+}
+
+.color_id2{
+  background-color: 	#7FFFAA
+}

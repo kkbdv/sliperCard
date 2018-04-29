@@ -1,0 +1,12 @@
+<view class='container' style='height:{{screenheight}}px'>
+  <block wx:for="{{cardInfoList}}" wx:for-index="id" wx:key="unique">
+    <view catchtouchmove="{{id==0?'touchmove1':''}}" catchtouchend="{{id==0?'touchend1':''}}" animation="{{id==0?'animationData1':''}}" >
+      <view class='zan-col-18 zan-col-offset-3 card_style color_id{{item.colortype}}'
+      style='top:{{item.balltop}}px;left:{{item.ballleft}}px;z-index:{{item.z_index}};'>
+        <view class='doc-title'>123</view>
+        <view class='doc-description'>{{item.detail}}</view>
+      </view>
+    </view>
+  </block>
+</view>
+  	
